@@ -1,0 +1,245 @@
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+body {
+    background-color: #e6eff6;
+    font-family: 'karla', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Price grid*/
+
+.grid {
+    display: flex;
+    width: 560px;
+    height: 40%;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/*First box*/
+
+.join-our-community {
+    background-color: white;
+    width: 520px;
+    height: fit-content;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.frst-title {
+    color: #4abebd;
+}
+
+.subtitle {
+    color: #bfdf32;
+    font-weight: 700;
+}
+
+.text-container {
+    color: #aaaeb7; 
+    line-height: 20px;
+    font-size: small;
+}
+
+/*Second box*/
+
+.monthly-subscription {
+    background-color: #2bb3b1;
+    width: 240px;
+    height: 180px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    font-size: small;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.per-month {
+    color: #b5e0e1;
+}
+
+.sec-txt-container {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 200px;
+    background-color: #bfdf32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/*Third box*/
+
+.why-us {
+    background-color: #4abebd;
+    width: 240px;
+    height: 180px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: small;
+}
+
+.list {
+    color: #b5e0e1;
+    list-style: none;
+    padding-left: 0;
+    line-height: 16px;
+}
+
+}
+
+/*Media Query for mobile devices*/
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+
+    body {
+        background-color: #e6eff6;
+        font-family: 'karla', sans-serif;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*Price grid*/
+    
+    .grid {
+        display: flex;
+        width: 270px;
+        height: 40%;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+    
+    /*First box*/
+    
+    .join-our-community {
+        background-color: white;
+        width: 270px;
+        height: fit-content;
+        padding-top:10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        font-size: small;
+    }
+    
+    .frst-title {
+        color: #4abebd;
+    }
+    
+    .subtitle {
+        color: #bfdf32;
+        font-weight: 700;
+    }
+    
+    .text-container {
+        color: #aaaeb7; 
+        line-height: 20px;
+        font-size: smaller;
+    }
+
+    br {
+        display: none;
+    }
+    
+    /*Second box*/
+    
+    .monthly-subscription {
+        background-color: #2bb3b1;
+        width: 270px;
+        height: 180px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        color: white;
+        font-size: small;
+    }
+    
+    .price-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .price {
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .per-month {
+        color: #b5e0e1;
+    }
+
+    .sec-txt-container {
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+    
+    .button {
+        width: 230px;
+        background-color: #bfdf32;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 45px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    /*Third box*/
+    
+    .why-us {
+        background-color: #4abebd;
+        width: 270px;
+        height: 180px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: white;
+        font-size: smaller;
+    }
+    
+    .list {
+        color: #b5e0e1;
+        list-style: none;
+        padding-left: 0;
+        line-height: 17px;
+    }
+    
+    }
