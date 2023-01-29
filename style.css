@@ -20,7 +20,7 @@ body {
     border-radius: 10px;
 }
 
-/*First box*/
+/*First box - "Join our community"*/
 
 .join-our-community {
     background-color: white;
@@ -48,7 +48,7 @@ body {
     font-size: small;
 }
 
-/*Second box*/
+/*Second box - "Monthly subscription"*/
 
 .monthly-subscription {
     background-color: #2bb3b1;
@@ -100,7 +100,7 @@ body {
     color: #bfdf32;
 }
 
-/*Third box*/
+/*Third box - "Why us"*/
 
 .why-us {
     background-color: #4abebd;
@@ -147,7 +147,7 @@ body {
         border-radius: 10px;
     }
     
-    /*First box*/
+    /*First box - "Join our community"*/
     
     .join-our-community {
         background-color: white;
@@ -181,7 +181,7 @@ body {
         display: none;
     }
     
-    /*Second box*/
+    /*Second box - "Monthly subscription*/
     
     .monthly-subscription {
         background-color: #2bb3b1;
@@ -226,7 +226,7 @@ body {
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
     }
     
-    /*Third box*/
+    /*Third box - "Why us"*/
     
     .why-us {
         background-color: #4abebd;
